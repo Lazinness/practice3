@@ -1,0 +1,11 @@
+name: hello github actions
+
+on: push
+
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, GitHub Actions!"
+        run: node.js --version
