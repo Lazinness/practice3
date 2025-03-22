@@ -8,4 +8,3 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello, GitHub Actions!"
-        run: node.js --version
